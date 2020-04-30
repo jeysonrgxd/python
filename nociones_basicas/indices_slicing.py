@@ -30,8 +30,11 @@ print('''\n SLICING ''')
 print(palabra[:]) #imprime todo python
 print(palabra[1:]) #imprime ython osea de la pocision que especificamos para adelante
 print(palabra[:5]) #imprime pytho no toma el ultimo especificado "recordar eso"
+
 print(palabra[:99]) # imprime todo devido que especificamos una pocios que supera a la cantidad normal de la palabra
+
 print(palabra[99:]) # me imprime vacio devido a que le espeificamos una pocios que supera a la cantidad y que supuestamente dessde ahi imprimi por ende nada 
+
 print(palabra[:-2]) # imprime asta donde especificamos menos ese especificado
 print(palabra[-2:])# imprime del especifaco asia adelante
 
