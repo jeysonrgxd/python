@@ -1,0 +1,9 @@
+'''
+BAMOS A REALIZAR UNA EXPRESCION ANIDADES CON EL FIN DE COMO ES QUE EL ORDENADOR PROCESA
+EL RESULTADO FINAL
+
+'''
+a = 10
+b = 5
+c = a*b - 2**b >=20 and not (a%b)  != 0
+print(c)

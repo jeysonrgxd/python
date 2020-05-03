@@ -8,4 +8,4 @@ Ayuda: Para voltear una cadena rápidamente utilizando slicing podemos utilizar 
 
 cadena = "zeréP nauJ,01"
 cadena_volteada = cadena[::-1] #esto invierte la cadena : "10,Juan Pérez"
-print(cadena_volteada[3:],"ha sacado una Nora de",cadena_volteada[:2])
+print(cadena_volteada[3:],"ha sacado una Nota de",cadena_volteada[:2])
