@@ -35,3 +35,5 @@ print(f)
 g = "Lector"
 i = g[0] == "H" or g[0] == "h"
 print(i)
+
+
