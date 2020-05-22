@@ -40,6 +40,8 @@ lista_2 = ["h","o","l","a"," ","l","u","n","a"]
 lista_3 = []
 lista_4 = [lista_1,lista_2]
 
+#usamos count que devuelve la cantidad de veses que se cuentra un valor en una lista
+# link de https://entrenamiento-python-basico.readthedocs.io/es/latest/leccion3/tipo_listas.html
 for a in lista_1:
    for b in lista_2:
       if a == b:
