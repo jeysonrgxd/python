@@ -11,6 +11,9 @@ pares.append(7*2)
 letras = ['a','b','c','d','e','f']
 letras[:3] = ['A','B','C'] #cabiando contenido con slicing
 letras[-3:] = [] #borramos el contenido ['d,'e','f']
+
+print(letras)
+
 letras = [] # borramos todo igualando a una lita vacia
 
 # Capicidad de tener listas en otras listas (Listas anidadas)
