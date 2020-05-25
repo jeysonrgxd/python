@@ -1,3 +1,5 @@
+from collections import deque
+
 '''
 1) Realiza un programa que siga las siguientes instrucciones:
 
@@ -69,3 +71,34 @@ for i,personaje in enumerate(personajes):
    print("\nPersonaje",i+1)
    for clave,valor in personaje.items():
       print(clave,"=>",valor)
+
+'''
+3) Durante la planificación de un proyecto se han acordado una lista de tareas. Para cada una de estas tareas se ha asignado un orden de prioridad (cuanto menor es el número de orden, más prioridad).
+
+¿Eres capaz de crear una estructura del tipo cola con todas las tareas ordenadas pero sin los números de orden?
+
+Pista: Para ordenar automáticamente una lista es posible utilizar el método .sort().
+
+'''
+
+print("\n------------EJERCICIO 3------------")
+
+cola =deque()
+
+tareas = [ 
+    [6, 'Distribución'],
+    [2, 'Diseño'],
+    [1, 'Concepción'],
+    [7, 'Mantenimiento'],
+    [4, 'Producción'],
+    [3, 'Planificación'],
+    [5, 'Pruebas']
+]
+
+tareas.sort() #ordenamos la lista
+print(tareas) #vemos los datos de la lista ordenadamente
+
+for tarea in tareas:
+   cola.append(tarea[1])
+
+print("La cola es:",cola)
