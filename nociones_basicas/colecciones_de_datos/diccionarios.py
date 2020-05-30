@@ -21,7 +21,7 @@ print("\nImprimiendo clave y valor mediante items()")
 for clave,valor in persona1.items():
    print(clave,"=>",valor)
 
-#Uniendo listas con diccionarios el famoso listas de diccionarios
+#Uniendo listas con diccionarios el famoso listas de diccionarios o tambien conocido en otros lenguajes el array de objetos
 lista_persona = []
 persona2 = {
    "nombre":"Andersson",
