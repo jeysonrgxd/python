@@ -1,5 +1,4 @@
 # Los diccionarios son como los objetos de javascript, o tambien conocidos en otros lenguajes como arreglos asociativos, tiene clave y valor
-
 persona1 = {
    "nombre":"Jeyson",
    "apellido":"Ramos Garcia",
