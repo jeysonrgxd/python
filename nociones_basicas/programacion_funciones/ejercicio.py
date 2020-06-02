@@ -10,4 +10,16 @@ Nota: Para ordenar una lista automáticamente puedes usar el método .sort().
 
 '''
 
-   
+def separar(args):
+   pares = []
+   impares = []
+   for arg in args:
+      if arg%2 != 0:
+         impares.append(arg)
+      else:
+         pares.append(arg)
+   pares.sort()
+   impares.sort()
+   print(pares,'\n',impares) 
+
+separar([2,5,10,22,30,37,9])
