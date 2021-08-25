@@ -1,5 +1,4 @@
 # La tuplas son listas inmutables y se diferencia en que las lista son con [] y las tuplas con parentesis tupla()
-
 tupla = (1,"Jeyson",[2,3,4],False,1)
 print(tupla)
 
@@ -14,3 +13,13 @@ print(tupla[2::])
 print("El numero 1 se repite",tupla.count(1)) 
 
 # No se puede usar tupla.append() ya que las tuplas son inmutables
+
+# convirtiendo una tupla a lista
+nombres = ("jeyson","andersson", "estefany")
+lista_nombres = list(nombres)
+print(lista_nombres)
+
+# convirtiendo una lista en tupla
+numeros = [1,2,3,4,5]
+tuplaNumero = tuple(numeros)
+print(tuplaNumero)

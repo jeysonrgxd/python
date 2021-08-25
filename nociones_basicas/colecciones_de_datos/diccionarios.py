@@ -10,10 +10,20 @@ print(persona1["nombre"])
 persona1["nombre"] = "Jeyson gino"
 persona1["edad"] +=2
 
-#Recoremos las claves de un diccionario
+#Recoremos el diccionario
 print("\nImprimiendo el valor de las claves mediante un for")
 for clave in persona1:
    print(persona1[clave])
+
+#Recoremos solo las claves diccionario
+print("\nImprimiendo el solo las claves mediante un for")
+for clave in persona1.keys():
+   print(clave)
+
+#Recoremos solo los valores diccionario
+print("\nImprimiendo solo el valor en un for")
+for valor in persona1.values():
+   print(valor)
 
 # utiizando el items de los diccionarios
 print("\nImprimiendo clave y valor mediante items()")
