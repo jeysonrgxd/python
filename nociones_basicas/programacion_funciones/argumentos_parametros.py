@@ -12,9 +12,11 @@ print(restar())
 
 #valor "None"
 def multiplicar(a=None, b=None):
+
    if(a == None or b== None):
       print("Tiene que enviar parametros ala funcion")
       return
+
    return a*b
 
 print(multiplicar(3,4))

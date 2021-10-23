@@ -1,5 +1,8 @@
 # Scripts que se ejecutaran en la consola con argumentos para poder automatizar tareas
 # importamos la libreria sys que nos dara los argumento que le pasemos ala ejecucion del script en la terminal
+#pon en la terminarl la palabra y un numero(cantidad para el bucle for) 
+
+
 import sys
 
 argumentos = sys.argv

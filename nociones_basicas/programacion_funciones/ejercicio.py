@@ -22,4 +22,4 @@ def separar(args):
    impares.sort()
    print(pares,'\n',impares) 
 
-separar([2,5,10,22,30,37,9])
+separar([2,5,10,22,30,37,9,100,97])

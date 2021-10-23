@@ -11,12 +11,12 @@ import sys
 
 '''
 
-print( "{:>20}".format("Hola Mundo") )
-print( "{:.4}".format("Hola Mundo") )
-print( "{:^20.2}".format("Hola Mundo") )
-print( "{:05d}".format(150) )
-print( "{:7d}".format(7887) )
-print( "{:07.3f}".format(20.02) )
+print("{:>20}".format("Hola Mundo"))
+print("{:.4}".format("Hola Mundo"))
+print("{:^20.2}".format("Hola Mundo"))
+print("{:05d}".format(150))
+print("{:7d}".format(7887))
+print("{:07.3f}".format(20.02))
 
 '''
 2) Crea un script llamado tabla.py que realice las siguientes tareas:
@@ -36,19 +36,19 @@ Recordatorio: Los argumentos se envían como cadenas separadas por espacios, si 
 argumentos = sys.argv
 print(argumentos)
 
-if len(argumentos)>=3 :
+if len(argumentos) >= 3:
 
-   if int(argumentos[1]) not in range(1,10) or int(argumentos[2]) not in range(1,10):
-      print("Erro los argumentos son menores de 1 o mayores que 9")
+    if int(argumentos[1]) not in range(1, 10) or int(argumentos[2]) not in range(1, 10):
+        print("Erro los argumentos son menores de 1 o mayores que 9")
 
-   else:
-      filas = int(argumentos[1])
-      tablas = int(argumentos[2])
+    else:
+        filas = int(argumentos[1])
+        tablas = int(argumentos[2])
 
-      for f in range(filas):
-         for c in range(tablas):
-            print("*",end='')
-         print("")
+        for f in range(filas):
+            for c in range(tablas):
+                print("*", end='')
+            print("")
 else:
-   print("Error digite correctamente los argumentos")
-   print("Un Ejemplo seria: python ejercicios.py 4 2")
+    print("Error digite correctamente los argumentos")
+    print("Un Ejemplo seria: python ejercicios.py 4 2")
